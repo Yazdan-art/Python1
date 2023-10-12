@@ -1,7 +1,7 @@
 # print(2+2)
 # print ("hello_python")
 # print("hi_git")
-# print(5.3+36)Hell
+# print(5.3+36)
 #_______________________________
 # print("hi world")
 # hour =1
@@ -19,7 +19,7 @@
 # nam=input("who are you?")
 # print('welcome ',nam)
 #_______________________________
-# h=input("pleas tell me about tim")
+# h=input("pleas tell me about your time")
 # print(type(h))
 # rate=input("pleas enter you rate")
 # pay=int(h)*int(rate)
@@ -32,12 +32,16 @@
 # r=int(input ("enter"))
 # print(h*r)
 #__________________conditions___________________
-h=int(input("enter h"))
-rate=int(input("enter rate"))
-if h<=160 :
-    print(h*rate)
+hour=float(input("enter hour    "))
+rate=float(input("enter rate    "))
+if hour<=160 :
+    print("your salary is : ",hour*rate)
 else :
-    r=h-160
+    salary=160*rate
+    
+    remain_h=hour-160
+    salary=salary+(remain_h*rate*1.5)
+    print("your salary with Overtime is : ",salary)
     
         
     
