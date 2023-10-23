@@ -32,16 +32,46 @@
 # r=int(input ("enter"))
 # print(h*r)
 #__________________conditions___________________
-hour=float(input("enter hour    "))
-rate=float(input("enter rate    "))
-if hour<=160 :
-    print("your salary is : ",hour*rate)
-else :
-    salary=160*rate
+# hour=float(input("enter hour    "))
+# rate=float(input("enter rate    "))
+# if hour<=160 :
+#     print("your salary is : ",hour*rate)
+# else :
+#     salary=160*rate
     
-    remain_h=hour-160
-    salary=salary+(remain_h*rate*1.5)
-    print("your salary with Overtime is : ",salary)
+#     remain_h=hour-160
+#     salary=salary+(remain_h*rate*1.5)
+#     print("your salary with Overtime is : ",salary)
+# _______________________________________________
+# def myPrint(name):
+#     print("\n")
+#     print(name )
+# name=input("enter your name")
+# myPrint(name)       
+#  ______________________________________________
+# def normal_sal():
+#      print("your salary is : ",hour*rate)
+# def over_sal():
+       
+#       remain_h=hour-160
+#       salary=0
+#       salary=float(salary+(remain_h*rate*1.5))
+#       print("your salary with Overtime is : ", salary)
     
-        
     
+# hour=float(input("enter hour    "))
+# rate=float(input("enter rate    "))
+
+
+
+# if hour<=160 :
+#   normal_sal()
+    
+# else :
+#  over_sal()
+#  ______________________________________________
+
+
+
+
+  #  ______________________________________________
