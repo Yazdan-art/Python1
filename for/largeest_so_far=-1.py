@@ -6,11 +6,17 @@
 #     print(largeest_so_far,the_num)    
 # print('after',largeest_so_far)    
 #___________________________________
-sum=0
-count=0
+# sum=0
+# count=0
 
-print('before',sum)
-for the_num in [9,41,12,3,74,15]:
-   sum+=the_num
-   count+=1
-print('avrage = ' ,sum/count)   
+# print('before',sum)
+# for the_num in [9,41,12,3,74,15]:
+#    sum+=the_num
+#    count+=1
+# print('avrage = ' ,sum/count)  
+#___________________________________
+for the_num in [9,41,12,3,74,15,19,20,28,64,70,90]:
+    if the_num>18:
+        print(the_num)
+    if the_num==90:
+          print('there is a person with 90 age')  
