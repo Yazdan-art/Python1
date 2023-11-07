@@ -16,11 +16,13 @@
 #     print("age<18")
 #______________________
 # fruit="banana"
-# letter=fruit[1]
+# letter=fruit[0]
 # print(letter)
+
 # print("\n")
+
 # x=3
-# print(fruit[x-8])
+# print(fruit[x-1])
 # print(len(fruit))
 #_________________________
 # fruit="banana"
@@ -50,6 +52,11 @@
 # print(s[:2])
 # print(s[5:])
 #________________
+# fruit="banana"
+# if "nan" in fruit:
+#     print("found it")
+# print("nan"in fruit)# this is a summarisation of the command
+#________________
 # word=input("enter your desire word")
 # userName="yazdan"
 # if word==userName:
@@ -75,7 +82,10 @@
 # fin=fruit.find("an")
 # print(fin)
 #___________________________________
-fruit="banana"
-rep=fruit.replace('a','A',2)
-print(rep)
-
+# fruit="banana"
+# rep=fruit.replace('a','A',2)
+# print(rep)
+#___________________________________
+fruit="    banana,orange    "
+print(fruit.lstrip().rstrip().capitalize())
+#___________________________________
