@@ -47,7 +47,7 @@
 #__________________________________
 # s="Monty python"
 # print(s[:])
-# print(s[0:1])
+# print(s[0:2])
 # print(s[0:5])
 # print(s[:2])
 # print(s[5:])
@@ -68,24 +68,34 @@
 # else :
 #     print("wellcome"+userName)
 #___________________________________
-# greet="yazdan ghezelbash"
+#greet="yazdan ghe"
 # lower_greet=greet.lower()
 # print(lower_greet)
 # print(greet.upper())
 # print(type(greet))
 # print(dir(greet))
-# split1=greet.split()
-# print(split1)
-# print(greet.split())
+#split1=greet.split()
+#print(split1)
+#print(greet.split())
 #___________________________________
 # fruit="banana"
 # fin=fruit.find("an")
 # print(fin)
 #___________________________________
 # fruit="banana"
-# rep=fruit.replace('a','A',2)
+# print(fruit.capitalize())
+# fruit=fruit.upper()
+# print(fruit)
+# print(fruit.capitalize())
+# rep=fruit.replace('ana','ANA',2)
 # print(rep)
 #___________________________________
-fruit="    banana,orange    "
-print(fruit.lstrip().rstrip().capitalize())
+# fruit="    banana,orange    "
+# print(fruit.lstrip().rstrip().capitalize())
 #___________________________________
+long_str=" The rsplit() method is same as split method that splits a string from the specified separator and returns a list object with string elements. The default separator is any whitespace character such as space, \t, \n, etc." 
+"The only difference between the split() and rsplit() is when the maxsplit parameter is specified. If the maxsplit parameter is specified, then the rsplit() method starts splitting a string from the right side (from the last character), whereas the split() method starts splitting from the left side (from the first character)."
+print("\n")
+print(long_str.split())
+print("\n")
+print(long_str.rsplit(' ',3))
