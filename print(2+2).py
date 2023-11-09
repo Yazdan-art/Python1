@@ -19,7 +19,7 @@
 # nam=input("who are you?")
 # print('welcome ',nam)
 #_______________________________
-# h=input("pleas tell me about your time")
+# h=input("please tell me about your time")
 # print(type(h))
 # rate=input("pleas enter you rate")
 # pay=int(h)*int(rate)
